@@ -41,6 +41,7 @@ class CarrosListView extends StatelessWidget {
                     Center(
                       child: Image.network(
                         c.urlFoto ?? "https://library.kissclipart.com/20180902/lyq/kissclipart-red-ferrari-png-clipart-ferrari-s-p-a-laferrari-d6f5cfd9040504d2.jpg",
+                        height: 150,
                       ),
                     ),
                     Text(
